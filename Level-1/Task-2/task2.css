@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(40, 40, 192);
+    padding:30px;
+}
+
+.container{
+    width:600px;
+    height:100vh;
+    background: azure;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.interface{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.interface h1{
+    font-size: 2.5rem;
+    font-size: 500;
+    margin-bottom:20px;
+}
+.interface .changecolor{
+    width:150px;
+    height:75px;
+    display:flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 2px;
+    cursor:pointer;
+}
+.interface .calculator{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculator input[type="number"]{
+  
+   height:50px;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+  
+}
+.calculator input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    width:100px;
+
+}
+.calculator label{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#result{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
